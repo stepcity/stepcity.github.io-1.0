@@ -27,6 +27,7 @@ a:active {color: #ff0000}
 body {max-width: 1024px;margin: 0 auto}
 .img-left {float: left}
 .img-right {float: right}
+.adbar {margin-top: 8px}
 
 /* WIDGET STYLING */
 button {border: 4px solid;border-color: #c0c0c0 #808080 #808080 #c0c0c0;border-image: url('./border-ridge.svg') 64/4px;border-radius: 0;padding: 7px 11px;background: #ffffff;font-size: 16px;font-family: "Times Pixelated 16", "Times New Roman", serif}
