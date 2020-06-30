@@ -1,0 +1,47 @@
+@font-face{font-family: "Arial Pixelated 16";src: url(./ARIAL.TTF-16-Regular.woff) format("woff");font-weight: 400;font-style: normal;font-display: swap}
+@font-face{font-family: "Arial Pixelated 16";src: url(./ARIALBD.TTF-16-Bold.woff) format("woff");font-weight: 700;font-style: normal;font-display: swap}
+@font-face{font-family: "Arial Pixelated 16";src: url(./ARIALBI.TTF-16-BoldItalic.woff) format("woff");font-weight: 700;font-style: italic;font-display: swap}
+@font-face{font-family: "Arial Pixelated 16";src: url(./ARIALI.TTF-16-Italic.woff) format("woff");font-weight: 400;font-style: italic;font-display: swap}
+@font-face{font-family: "Arial Pixelated 24";src: url(./ARIAL.TTF-24-Regular.woff) format("woff");font-weight: 400;font-style: normal;font-display: swap}
+@font-face{font-family: "Arial Pixelated 24";src: url(./ARIALBD.TTF-24-Bold.woff) format("woff");font-weight: 700;font-style: normal;font-display: swap}
+@font-face{font-family: "Arial Pixelated 24";src: url(./ARIALBI.TTF-24-BoldItalic.woff) format("woff");font-weight: 700;font-style: italic;font-display: swap}
+@font-face{font-family: "Arial Pixelated 24";src: url(./ARIALI.TTF-24-Italic.woff) format("woff");font-weight: 400;font-style: italic;font-display: swap}
+@font-face{font-family: "Arial Pixelated 32";src: url(./ARIAL.TTF-32-Regular.woff) format("woff");font-weight: 400;font-style: normal;font-display: swap}
+@font-face{font-family: "Arial Pixelated 32";src: url(./ARIALBD.TTF-32-Bold.woff) format("woff");font-weight: 700;font-style: normal;font-display: swap}
+@font-face{font-family: "Arial Pixelated 32";src: url(./ARIALBI.TTF-32-BoldItalic.woff) format("woff");font-weight: 700;font-style: italic;font-display: swap}
+@font-face{font-family: "Arial Pixelated 32";src: url(./ARIALI.TTF-32-Italic.woff) format("woff");font-weight: 400;font-style: italic;font-display: swap}
+@font-face{font-family: "Comic Sans Pixelated 16";src: url(./COMIC.TTF-16-Regular.woff) format("woff");font-weight: 400;font-style: normal;font-display: swap}
+@font-face{font-family: "Comic Sans Pixelated 16";src: url(./COMICBD.TTF-16-Bold.woff) format("woff");font-weight: 700;font-style: normal;font-display: swap}
+@font-face{font-family: "Comic Sans Pixelated 24";src: url(./COMIC.TTF-24-Regular.woff) format("woff");font-weight: 400;font-style: normal;font-display: swap}
+@font-face{font-family: "Comic Sans Pixelated 24";src: url(./COMICBD.TTF-24-Bold.woff) format("woff");font-weight: 700;font-style: normal;font-display: swap}
+@font-face{font-family: "Comic Sans Pixelated 32";src: url(./COMIC.TTF-32-Regular.woff) format("woff");font-weight: 400;font-style: normal;font-display: swap}
+@font-face{font-family: "Comic Sans Pixelated 32";src: url(./COMICBD.TTF-32-Bold.woff) format("woff");font-weight: 700;font-style: normal;font-display: swap}
+@font-face{font-family: "Courier Pixelated 16";src: url(./COUR.TTF-16-Regular.woff) format("woff");font-weight: 400;font-style: normal;font-display: swap}
+@font-face{font-family: "Courier Pixelated 16";src: url(./COURBD.TTF-16-Bold.woff) format("woff");font-weight: 700;font-style: normal;font-display: swap}
+@font-face{font-family: "Courier Pixelated 16";src: url(./COURBI.TTF-16-BoldItalic.woff) format("woff");font-weight: 700;font-style: italic;font-display: swap}
+@font-face{font-family: "Courier Pixelated 16";src: url(./COURI.TTF-16-Italic.woff) format("woff");font-weight: 400;font-style: italic;font-display: swap}
+@font-face{font-family: "Courier Pixelated 24";src: url(./COUR.TTF-24-Regular.woff) format("woff");font-weight: 400;font-style: normal;font-display: swap}
+@font-face{font-family: "Courier Pixelated 24";src: url(./COURBD.TTF-24-Bold.woff) format("woff");font-weight: 700;font-style: normal;font-display: swap}
+@font-face{font-family: "Courier Pixelated 24";src: url(./COURBI.TTF-24-BoldItalic.woff) format("woff");font-weight: 700;font-style: italic;font-display: swap}
+@font-face{font-family: "Courier Pixelated 24";src: url(./COURI.TTF-24-Italic.woff) format("woff");font-weight: 400;font-style: italic;font-display: swap}
+@font-face{font-family: "Courier Pixelated 32";src: url(./COUR.TTF-32-Regular.woff) format("woff");font-weight: 400;font-style: normal;font-display: swap}
+@font-face{font-family: "Courier Pixelated 32";src: url(./COURBD.TTF-32-Bold.woff) format("woff");font-weight: 700;font-style: normal;font-display: swap}
+@font-face{font-family: "Courier Pixelated 32";src: url(./COURBI.TTF-32-BoldItalic.woff) format("woff");font-weight: 700;font-style: italic;font-display: swap}
+@font-face{font-family: "Courier Pixelated 32";src: url(./COURI.TTF-32-Italic.woff) format("woff");font-weight: 400;font-style: italic;font-display: swap}
+@font-face{font-family: "Lucida Hand Pixelated 16";src: url(./LHANDW.TTF-16-Regular.woff) format("woff");font-weight: 400;font-style: normal;font-display: swap}
+@font-face{font-family: "Lucida Hand Pixelated 24";src: url(./LHANDW.TTF-24-Regular.woff) format("woff");font-weight: 400;font-style: normal;font-display: swap}
+@font-face{font-family: "Lucida Hand Pixelated 32";src: url(./LHANDW.TTF-32-Regular.woff) format("woff");font-weight: 400;font-style: normal;font-display: swap}
+@font-face{font-family: "Times Pixelated 16";src: url(./TIMES.TTF-16-Regular.woff) format("woff");font-weight: 400;font-style: normal;font-display: swap}
+@font-face{font-family: "Times Pixelated 16";src: url(./TIMESBD.TTF-16-Bold.woff) format("woff");font-weight: 700;font-style: normal;font-display: swap}
+@font-face{font-family: "Times Pixelated 16";src: url(./TIMESBI.TTF-16-BoldItalic.woff) format("woff");font-weight: 700;font-style: italic;font-display: swap}
+@font-face{font-family: "Times Pixelated 16";src: url(./TIMESI.TTF-16-Italic.woff) format("woff");font-weight: 400;font-style: italic;font-display: swap}
+@font-face{font-family: "Times Pixelated 24";src: url(./TIMES.TTF-24-Regular.woff) format("woff");font-weight: 400;font-style: normal;font-display: swap}
+@font-face{font-family: "Times Pixelated 24";src: url(./TIMESBD.TTF-24-Bold.woff) format("woff");font-weight: 700;font-style: normal;font-display: swap}
+@font-face{font-family: "Times Pixelated 24";src: url(./TIMESBI.TTF-24-BoldItalic.woff) format("woff");font-weight: 700;font-style: italic;font-display: swap}
+@font-face{font-family: "Times Pixelated 24";src: url(./TIMESI.TTF-24-Italic.woff) format("woff");font-weight: 400;font-style: italic;font-display: swap}
+@font-face{font-family: "Times Pixelated 32";src: url(./TIMES.TTF-32-Regular.woff) format("woff");font-weight: 400;font-style: normal;font-display: swap}
+@font-face{font-family: "Times Pixelated 32";src: url(./TIMESBD.TTF-32-Bold.woff) format("woff");font-weight: 700;font-style: normal;font-display: swap}
+@font-face{font-family: "Times Pixelated 32";src: url(./TIMESBI.TTF-32-BoldItalic.woff) format("woff");font-weight: 700;font-style: italic;font-display: swap}
+@font-face{font-family: "Times Pixelated 32";src: url(./TIMESI.TTF-32-Italic.woff) format("woff");font-weight: 400;font-style: italic;font-display: swap}
+@font-face{font-family: 'MS Sans Pixelated 13';src: url(./SSERIFF.FON-13-Regular.woff) format("woff");font-weight: 400;font-style: normal;font-display: swap}
+@font-face{font-family: 'MS Sans Pixelated 17';src: url(./SSERIFF.FON-17-Regular.woff) format("woff");font-weight: 400;font-style: normal;font-display: swap}
