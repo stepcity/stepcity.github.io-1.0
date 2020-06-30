@@ -1,0 +1,48 @@
+/* IMPORT EXTERNAL CSS */
+@import url('./fonts/fonts.css');
+
+/* IMPORTANT FONT SETTINGS */
+*{font-family: "Times Pixelated 16", "Times New Roman", serif}
+body {font-family: 'Latin Modern', Georgia, Cambria, 'Times New Roman', Times, serif}
+h1 {margin: 24px 4px;padding: 0px;font-size: 32px;font-family: "Times Pixelated 32", "Times New Roman", serif}
+h2 {margin: 22px 4px;padding: 0px;font-size: 24px;font-family: "Times Pixelated 24", "Times New Roman", serif}
+h3 {margin: 18px 4px;padding: 0px;font-size: 16px;font-family: "Times Pixelated 16", "Times New Roman", serif}
+h4 {margin: 16px 4px;padding: 0px;font-size: 16px;font-family: "Times Pixelated 16", "Times New Roman", serif;text-decoration: underline}
+h5 {margin: 16px 4px;padding: 0px;font-size: 16px;font-family: "Times Pixelated 16", "Times New Roman", serif;font-style: oblique;text-decoration: underline}
+p {margin: 12px 4px;padding: 0px;font-size: 16px;font-family: "Times Pixelated 16", "Times New Roman", serif}
+a {color: #0000ff}
+a:hover {color: #ff00ff}
+a:active {color: #ff0000}
+.i {font-style: italic}
+.o {font-style: oblique}
+.b {font-weight: bold}
+.s {font-variant: small-caps}
+
+/* UNIVERSAL ATTRIBUTES */
+* {image-rendering: pixelated}
+*:focus {outline: 1px dotted #000000;outline-offset: 2px}
+
+/* LAYOUT */
+body {max-width: 1024px;margin: 0 auto}
+.icon-bar {text-align: center}
+.img-left {float: left}
+.img-right {float: right}
+
+/* WIDGET STYLING */
+button {border: 4px solid;border-color: #c0c0c0 #808080 #808080 #c0c0c0;border-image: url('./border-ridge.svg') 64/4px;border-radius: 0;padding: 7px 11px;background: #ffffff;font-size: 16px;font-family: "Times Pixelated 16", "Times New Roman", serif}
+button:focus {outline-offset: -8px}
+button:active, button.hilite {background: url('./img/rainbow.gif')}
+button[disabled] {background: #ffffff;color: #808080;text-shadow: 1px 1px #c0c0c0}
+.box {border: 4px solid; border-color: #c0c0c0 #808080 #808080 #c0c0c0;border-image: url('./border-ridge.svg') 64/4px;padding: 4px}
+.content {color: #ffffff}
+hr {height:2px;border: 2px solid;border-color: #c0c0c0 #808080 #808080 #c0c0c0;border-image: url('./border-outset.svg') 64/2px;background: url('./img/rainbow.gif')}
+hr.construction {height: 51px;border: 0;background: url('./img/construction.gif');background-repeat: no-repeat}
+
+/* TOP BAR STYLING */
+.header {width: 100%;height: 160px}
+.home-button {float: left;margin: 8px}
+.menu-link {display: inline-block;color: #000000}
+.menu-link:hover {color: red}
+table.menu {float: left;margin: 8px;border: 2px solid;border-color: #c0c0c0 #808080 #808080 #c0c0c0;border-image: url('./border-ridge.svg') 64/2px;background: #232323}
+td.menu-button {width: 64px;border: 2px solid;border-color: #808080 #c0c0c0 #c0c0c0 #808080;border-image: url('./border-inset.svg') 64/2px;padding: 8px;background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.75));text-align: center;text-shadow: -1px -1px #ffffff, 1px 1px #808080}
+th.title {height: 77px; border: 2px solid;border-color: #808080 #c0c0c0 #c0c0c0 #808080;border-image: url('./border-outset.svg') 64/2px;padding: 8px;background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.75));text-align: center;text-shadow: -1px -1px #ffffff, 1px 1px #808080}
