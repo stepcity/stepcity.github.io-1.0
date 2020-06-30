@@ -17,6 +17,7 @@ a:active {color: #ff0000}
 .o {font-style: oblique}
 .b {font-weight: bold}
 .s {font-variant: small-caps}
+.rainbow {background: url('./img/rainbow.gif');background-clip: text;-webkit-background-clip: text;color: transparent;font-weight: bold}
 
 /* UNIVERSAL ATTRIBUTES */
 * {image-rendering: pixelated}
@@ -24,7 +25,6 @@ a:active {color: #ff0000}
 
 /* LAYOUT */
 body {max-width: 1024px;margin: 0 auto}
-.icon-bar {text-align: center}
 .img-left {float: left}
 .img-right {float: right}
 
