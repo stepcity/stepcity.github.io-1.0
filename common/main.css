@@ -38,6 +38,7 @@ button[disabled] {background: #ffffff;color: #808080;text-shadow: 1px 1px #c0c0c
 .content {color: #ffffff}
 hr {height:2px;border: 2px solid;border-color: #c0c0c0 #808080 #808080 #c0c0c0;border-image: url('./border-outset.svg') 64/2px;background: url('./img/rainbow.gif')}
 hr.construction {height: 51px;border: 0;background: url('./img/construction.gif');background-repeat: no-repeat}
+img {image-rendering: crisp-edges}
 
 /* TOP BAR STYLING */
 .header {width: 100%;height: 160px}
