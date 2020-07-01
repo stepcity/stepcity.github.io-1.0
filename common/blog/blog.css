@@ -1,5 +1,5 @@
 /* IMPORT EXTERNAL CSS */
-@import url('./fonts/fonts.css');
+@import url('../fonts/fonts.css');
 
 /* IMPORTANT FONT SETTINGS */
 *{font-family: "Times Pixelated 16", "Times New Roman", serif}
@@ -17,7 +17,7 @@ a:active {color: #ff0000}
 .o {font-style: oblique}
 .b {font-weight: bold}
 .s {font-variant: small-caps}
-.rainbow {background: url('./img/rainbow.gif');background-clip: text;-webkit-background-clip: text;color: transparent;font-weight: bold}
+.rainbow {background: url('../img/rainbow.gif');background-clip: text;-webkit-background-clip: text;color: transparent;font-weight: bold}
 @keyframes textGlow {
   0% {text-shadow: 0.4389924193300864px 0 1px rgba(0,30,255,0.5), -0.4389924193300864px 0 1px rgba(255,0,80,0.3), 0 0 3px}
   5% {text-shadow: 2.7928974010788217px 0 1px rgba(0,30,255,0.5), -2.7928974010788217px 0 1px rgba(255,0,80,0.3), 0 0 3px}
@@ -45,33 +45,6 @@ a:active {color: #ff0000}
 h2.glow {color: #f535aa}
 h4.glow {color: #00ffff}
 
-/* UNIVERSAL ATTRIBUTES */
-* {image-rendering: crisp-edges}
-*:focus {outline: 1px dotted #000000;outline-offset: 2px}
-
-/* LAYOUT */
-body {max-width: 1024px;overflow-y: scroll;margin: 0 auto}
-.img-left {float: left}
-.img-right {float: right}
-.iconbar {margin-top: 8px}
-
-/* WIDGET STYLING */
-button {border: 4px solid;border-color: #c0c0c0 #808080 #808080 #c0c0c0;border-image: url('./border-ridge.svg') 64/4px;border-radius: 0;padding: 7px 11px;background: #ffffff;font-size: 16px;font-family: "Times Pixelated 16", "Times New Roman", serif}
-button:focus {outline-offset: -8px}
-button:active, button.hilite {background: url('./img/rainbow.gif')}
-button[disabled] {background: #ffffff;color: #808080;text-shadow: 1px 1px #c0c0c0}
-.box {border: 4px solid; border-color: #c0c0c0 #808080 #808080 #c0c0c0;border-image: url('./border-ridge.svg') 64/4px;padding: 4px}
-.content {color: #ffffff}
-hr {height:2px;border: 2px solid;border-color: #c0c0c0 #808080 #808080 #c0c0c0;border-image: url('./border-outset.svg') 64/2px;background: url('./img/rainbow.gif')}
-hr.construction {height: 51px;border: 0;background: url('./img/construction.gif');background-repeat: no-repeat}
-iframe {border: 2px solid;border-color: #c0c0c0 #808080 #808080 #c0c0c0;border-image: url('./border-ridge.svg') 64/2px;}
-.blog-post {width: calc(100% - 4px);height: 508px;}
-
-/* TOP BAR STYLING */
-.header {width: 100%;height: 160px}
-.home-button {float: left;margin: 8px}
-.menu-link {display: inline-block;color: #000000}
-.menu-link:hover {color: red}
-table.menu {float: left;margin: 8px;border: 2px solid;border-color: #c0c0c0 #808080 #808080 #c0c0c0;border-image: url('./border-ridge.svg') 64/2px;background: #232323}
-td.menu-button {width: 64px;border: 2px solid;border-color: #808080 #c0c0c0 #c0c0c0 #808080;border-image: url('./border-inset.svg') 64/2px;padding: 8px;background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.75));text-align: center;text-shadow: -1px -1px #ffffff, 1px 1px #808080}
-th.title {height: 77px; border: 2px solid;border-color: #808080 #c0c0c0 #c0c0c0 #808080;border-image: url('./border-outset.svg') 64/2px;padding: 8px;background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.75));text-align: center;text-shadow: -1px -1px #ffffff, 1px 1px #808080}
+/* GENERAL SETTINGS */
+body {color: #ffffff}
+hr {height:2px;border: 2px solid;border-color: #c0c0c0 #808080 #808080 #c0c0c0;border-image: url('../border-outset.svg') 64/2px;background: url('../img/rainbow.gif')}
