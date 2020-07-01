@@ -24,7 +24,7 @@ a:active {color: #ff0000}
 *:focus {outline: 1px dotted #000000;outline-offset: 2px}
 
 /* LAYOUT */
-body {max-width: 1024px;overflow: hidden;margin: 0 auto}
+body {max-width: 1024px;overflow-y: scroll;margin: 0 auto}
 .img-left {float: left}
 .img-right {float: right}
 .iconbar {margin-top: 8px}
