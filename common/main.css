@@ -20,11 +20,11 @@ a:active {color: #ff0000}
 .rainbow {background: url('./img/rainbow.gif');background-clip: text;-webkit-background-clip: text;color: transparent;font-weight: bold}
 
 /* UNIVERSAL ATTRIBUTES */
-* {image-rendering: crisp-edges}
+* {image-rendering: pixelated}
 *:focus {outline: 1px dotted #000000;outline-offset: 2px}
 
 /* LAYOUT */
-body {max-width: 1024px;margin: 0 auto}
+body {max-width: 1024px;overflow: hidden;margin: 0 auto}
 .img-left {float: left}
 .img-right {float: right}
 .iconbar {margin-top: 8px}
