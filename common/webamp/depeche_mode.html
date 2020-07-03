@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="../main.css" /> <!-- -->
+    <link rel="shortcut icon" href="../../favicon-medium.ico" type="image/x-icon" /> <!-- -->
+    <title>STEP CITY</title>
+  </head>
+  
+  <body background="../back/fallingstars.gif">
+    <div class="header">
+      <a href="../../index.html"><img src="../sc.gif" class="home-button" /></a>
+    </div>
+    
+    <div id="breadcrumb">
+      <br />
+        <span style="float: left;color: white">
+          / <a href="./">root</a> / <a href="../../music.html">music.html</a>&nbsp;
+        </span>
+    </div>
+    
+    <div id="app" style="margin: 4px">
+    </div>
+    
+    <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
+    <script>
+        const Webamp = window.Webamp;
+        new Webamp({
+            initialTracks: [{
+                metaData: {
+                    artist: "Depeche Mode",
+                    title: "Stripped"
+                },
+                url: "./playlist/depeche_mode/1_stripped.mp3",
+                duration: 231
+            },
+            {
+                metaData: {
+                    artist: "Depeche Mode",
+                    title: "New Life"
+                },
+                url: "./playlist/depeche_mode/2_new_life.mp3",
+                duration: 226
+            },
+            {
+                metaData: {
+                    artist: "Depeche Mode",
+                    title: "Never Let me Down Again"
+                },
+                url: "./playlist/depeche_mode/3_never_let_me_down_again.mp3",
+                duration: 262
+            },
+            {
+                metaData: {
+                    artist: "Depeche Mode",
+                    title: "Behind the Wheel"
+                },
+                url: "./playlist/depeche_mode/4_behind_the_wheel.mp3",
+                duration: 242
+            },
+            {
+                metaData: {
+                    artist: "Depeche Mode",
+                    title: "Enjoy the Silence"
+                },
+                url: "./playlist/depeche_mode/5_enjoy_the_silence.mp3",
+                duration: 256
+            },
+            {
+                metaData: {
+                    artist: "Depeche Mode",
+                    title: "Policy of Truth"
+                },
+                url: "./playlist/depeche_mode/6_policy_of_truth.mp3",
+                duration: 314
+            },
+            {
+                metaData: {
+                    artist: "Depeche Mode",
+                    title: "World in my Eyes"
+                },
+                url: "./playlist/depeche_mode/7_world_in_my_eyes.mp3",
+                duration: 237
+            },
+            {
+                metaData: {
+                    artist: "Depeche Mode",
+                    title: "Everything Counts"
+                },
+                url: "./playlist/depeche_mode/8_everything_counts.mp3",
+                duration: 239
+            },
+            {
+                metaData: {
+                    artist: "Depeche Mode",
+                    title: "People are People"
+                },
+                url: "./playlist/depeche_mode/9_people_are_people.mp3",
+                duration: 226
+            },
+            {
+                metaData: {
+                    artist: "Depeche Mode",
+                    title: "Master and Servant"
+                },
+                url: "./playlist/depeche_mode/10_master_and_servant.mp3",
+                duration: 227
+            },
+            {
+                metaData: {
+                    artist: "Depeche Mode",
+                    title: "Blasphemous Rumours"
+                },
+                url: "./playlist/depeche_mode/11_blasphemous_rumours.mp3",
+                duration: 309
+            }],
+            
+          initialSkin: {
+            url: "./skin/winclassic.wsz"
+          },
+          availableSkins: [
+            { url: "./skin/mac6amp.wsz", name: "System Software 6" },
+            { url: "./skin/mac8amp.wsz", name: "MacOS 8" },
+            { url: "./skin/winclassic.wsz", name: "Windows 95" }
+          ],
+        }).renderWhenReady(document.getElementById('app'));
+    </script>
+  </body>
+</html>
