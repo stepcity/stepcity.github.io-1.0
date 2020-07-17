@@ -71,7 +71,9 @@ h4.glow {color: #00ffff}
 /* UNIVERSAL ATTRIBUTES */
 * {image-rendering: crisp-edges}
 *:focus {outline: 1px dotted #000000;outline-offset: 2px}
-
+* {
+	cursor: url('./cursor.png'), auto;
+}
 /* LAYOUT */
 body {max-width: 1024px;overflow-y: scroll;margin: 0 auto}
 .img-left {float: left}
